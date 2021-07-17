@@ -4,9 +4,40 @@ exports[`BottomSheet Component renders correctly 1`] = `
 <Modal
   animationType="slide"
   hardwareAccelerated={false}
+  onRequestClose={[Function]}
   transparent={true}
   visible={true}
 >
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="RNE__Overlay__backdrop"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(0, 0, 0, .4)",
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        }
+      }
+      testID="backdrop"
+    />
+  </View>
   <RNCSafeAreaView
     style={
       Object {
@@ -234,9 +265,30 @@ exports[`BottomSheet Component should render with the provided containerStyle 1`
 <Component
   animationType="slide"
   hardwareAccelerated={false}
+  onRequestClose={[Function]}
   transparent={true}
   visible={true}
 >
+  <Pressable
+    onPress={[Function]}
+    testID="RNE__Overlay__backdrop"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(0, 0, 0, .4)",
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        }
+      }
+      testID="backdrop"
+    />
+  </Pressable>
   <RNCSafeAreaView
     style={
       Object {

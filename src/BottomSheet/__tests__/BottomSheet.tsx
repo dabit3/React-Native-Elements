@@ -57,6 +57,24 @@ describe('BottomSheet Component', () => {
     expect(component.find(Modal).props().visible).toBeFalsy();
   });
 
+  it('should click the backdrop and use passed handler', () => {
+    const onBackdropPress = jest.fn();
+    const list = [{ title: 'test' }, { title: 'test2' }];
+    const wrapper = shallow(
+      <BottomSheet isVisible onBackdropPress={onBackdropPress}>
+        {list.map((l, i) => (
+          <ListItem key={i}>
+            <ListItem.Content>
+              <ListItem.Title>{l.title}</ListItem.Title>
+            </ListItem.Content>
+          </ListItem>
+        ))}
+      </BottomSheet>
+    );
+    wrapper.dive().find({ testID: 'RNE__Overlay__backdrop' }).simulate('press');
+    expect(onBackdropPress).toHaveBeenCalled();
+  });
+
   it('should render with the provided containerStyle', () => {
     const component = shallow(
       <BottomSheet

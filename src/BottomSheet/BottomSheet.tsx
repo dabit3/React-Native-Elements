@@ -3,6 +3,7 @@ import {
   Modal,
   View,
   StyleSheet,
+  Pressable,
   ScrollView,
   StyleProp,
   ViewStyle,
@@ -19,6 +20,12 @@ export type BottomSheetProps = {
   /** Additional props handed to the `Modal`. */
   modalProps?: ModalProps;
 
+  /** Style of the backdrop container. */
+  backdropStyle?: StyleProp<ViewStyle>;
+
+  /** Handler for backdrop press. */
+  onBackdropPress?(): void;
+
   /** Is the modal component shown. */
   isVisible?: boolean;
 
@@ -33,6 +40,8 @@ export type BottomSheetProps = {
  */
 export const BottomSheet: RneFunctionComponent<BottomSheetProps> = ({
   containerStyle,
+  backdropStyle,
+  onBackdropPress = () => null,
   isVisible = false,
   modalProps = {},
   children,
@@ -42,10 +51,18 @@ export const BottomSheet: RneFunctionComponent<BottomSheetProps> = ({
   return (
     <Modal
       animationType="slide"
+      onRequestClose={onBackdropPress}
       transparent={true}
       visible={isVisible}
       {...modalProps}
     >
+      <Pressable onPress={onBackdropPress} testID="RNE__Overlay__backdrop">
+        <View
+          testID="backdrop"
+          style={StyleSheet.flatten([styles.backdrop, backdropStyle])}
+        />
+      </Pressable>
+
       <SafeAreaView
         style={StyleSheet.flatten([
           styles.safeAreaView,
@@ -62,6 +79,16 @@ export const BottomSheet: RneFunctionComponent<BottomSheetProps> = ({
 };
 
 const styles = StyleSheet.create({
+  backdrop: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, .4)',
+  },
   safeAreaView: {
     flex: 1,
     backgroundColor: 'rgba(0,0,0,0.2)',

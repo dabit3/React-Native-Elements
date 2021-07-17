@@ -15,6 +15,7 @@ import Chip, { ChipProps } from './Chip';
 import Dialog, { DialogLoadingProps, DialogTitleProps } from './Dialog';
 import Divider, { DividerProps } from './Divider';
 import FAB, { FABProps } from './FAB';
+import FloatingInput, { FloatingInputProps } from './Input/floatingInput';
 import Header, { HeaderProps } from './Header';
 import Icon, { IconProps } from './Icon';
 import Image, { ImageProps } from './Image';
@@ -76,6 +77,7 @@ export {
   Dialog,
   Divider,
   FAB,
+  FloatingInput,
   Header,
   Icon,
   Image,
@@ -127,6 +129,7 @@ export type {
   DialogTitleProps,
   DividerProps,
   FABProps,
+  FloatingInputProps,
   HeaderProps,
   IconProps,
   ImageProps,

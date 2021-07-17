@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component Props label 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "#86939E",
+      "borderRadius": 5,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "height": 50,
+      "marginVertical": 6,
+      "width": "90%",
+    }
+  }
+>
+  <ForwardRef(AnimatedComponentWrapper)
+    style={
+      Array [
+        Object {
+          "left": 13,
+          "position": "absolute",
+        },
+        Object {
+          "color": "#5E6977",
+          "fontSize": 15,
+          "top": 14,
+        },
+      ]
+    }
+  >
+    My Label Name
+  </ForwardRef(AnimatedComponentWrapper)>
+  <Component
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "#86939E",
+          "fontSize": 15,
+          "marginLeft": 13,
+          "marginTop": 20,
+        },
+        Object {},
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`Input component Props labelActiveColor 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "#86939E",
+      "borderRadius": 5,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "height": 50,
+      "marginVertical": 6,
+      "width": "90%",
+    }
+  }
+>
+  <ForwardRef(AnimatedComponentWrapper)
+    style={
+      Array [
+        Object {
+          "left": 13,
+          "position": "absolute",
+        },
+        Object {
+          "color": "#5E6977",
+          "fontSize": 15,
+          "top": 14,
+        },
+      ]
+    }
+  />
+  <Component
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "#86939E",
+          "fontSize": 15,
+          "marginLeft": 13,
+          "marginTop": 20,
+        },
+        Object {},
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`Input component Props labelActiveSize 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "#86939E",
+      "borderRadius": 5,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "height": 50,
+      "marginVertical": 6,
+      "width": "90%",
+    }
+  }
+>
+  <ForwardRef(AnimatedComponentWrapper)
+    style={
+      Array [
+        Object {
+          "left": 13,
+          "position": "absolute",
+        },
+        Object {
+          "color": "#5E6977",
+          "fontSize": 15,
+          "top": 14,
+        },
+      ]
+    }
+  />
+  <Component
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "#86939E",
+          "fontSize": 15,
+          "marginLeft": 13,
+          "marginTop": 20,
+        },
+        Object {},
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`Input component Props labelInActiveColor 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "#86939E",
+      "borderRadius": 5,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "height": 50,
+      "marginVertical": 6,
+      "width": "90%",
+    }
+  }
+>
+  <ForwardRef(AnimatedComponentWrapper)
+    style={
+      Array [
+        Object {
+          "left": 13,
+          "position": "absolute",
+        },
+        Object {
+          "color": "#5E6977",
+          "fontSize": 15,
+          "top": 14,
+        },
+      ]
+    }
+  />
+  <Component
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "#86939E",
+          "fontSize": 15,
+          "marginLeft": 13,
+          "marginTop": 20,
+        },
+        Object {},
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`Input component Props labelInActiveSize 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "#86939E",
+      "borderRadius": 5,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "height": 50,
+      "marginVertical": 6,
+      "width": "90%",
+    }
+  }
+>
+  <ForwardRef(AnimatedComponentWrapper)
+    style={
+      Array [
+        Object {
+          "left": 13,
+          "position": "absolute",
+        },
+        Object {
+          "color": "#5E6977",
+          "fontSize": 15,
+          "top": 14,
+        },
+      ]
+    }
+  />
+  <Component
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "#86939E",
+          "fontSize": 15,
+          "marginLeft": 13,
+          "marginTop": 20,
+        },
+        Object {},
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`Input component Props value 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "#86939E",
+      "borderRadius": 5,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "height": 50,
+      "marginVertical": 6,
+      "width": "90%",
+    }
+  }
+>
+  <ForwardRef(AnimatedComponentWrapper)
+    style={
+      Array [
+        Object {
+          "left": 13,
+          "position": "absolute",
+        },
+        Object {
+          "color": "#5E6977",
+          "fontSize": 15,
+          "top": 14,
+        },
+      ]
+    }
+  />
+  <Component
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "#86939E",
+          "fontSize": 15,
+          "marginLeft": 13,
+          "marginTop": 20,
+        },
+        Object {},
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value="My Value"
+  />
+</View>
+`;
+
+exports[`Input component should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "#86939E",
+      "borderRadius": 5,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "height": 50,
+      "marginVertical": 6,
+      "width": "90%",
+    }
+  }
+>
+  <ForwardRef(AnimatedComponentWrapper)
+    style={
+      Array [
+        Object {
+          "left": 13,
+          "position": "absolute",
+        },
+        Object {
+          "color": "#5E6977",
+          "fontSize": 15,
+          "top": 14,
+        },
+      ]
+    }
+  />
+  <Component
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "#86939E",
+          "fontSize": 15,
+          "marginLeft": 13,
+          "marginTop": 20,
+        },
+        Object {},
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;

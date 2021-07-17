@@ -14,6 +14,7 @@ import {
 } from '../Dialog';
 import { DividerProps } from '../Divider';
 import { FABProps } from '../FAB';
+import { FloatingInputProps } from '../input/FloatingInput';
 import { HeaderProps } from '../Header';
 import { IconProps } from '../Icon';
 import { ImageProps } from '../Image';
@@ -67,6 +68,7 @@ export interface FullTheme {
   DialogTitle: Partial<DialogTitleProps>;
   Divider: Partial<DividerProps>;
   FAB: Partial<FABProps>;
+  FloatingInput: Partial<FloatingInputProps>;
   Header: Partial<HeaderProps>;
   Icon: Partial<IconProps>;
   Image: Partial<ImageProps>;

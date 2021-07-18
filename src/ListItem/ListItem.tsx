@@ -3,15 +3,15 @@ import {
   Platform,
   StyleProp,
   StyleSheet,
-  TouchableHighlight,
-  TouchableHighlightProps,
+  Pressable,
+  PressableProps,
   View,
   ViewStyle,
 } from 'react-native';
 import { PadView } from './components/PadView';
 import { RneFunctionComponent } from '../helpers';
 
-export type ListItemBaseProps = TouchableHighlightProps & {
+export type ListItemBaseProps = PressableProps & {
   /** Additional main container styling. */
   containerStyle?: StyleProp<ViewStyle>;
 
@@ -30,13 +30,13 @@ export type ListItemBaseProps = TouchableHighlightProps & {
   /** Replace element with custom element. */
   Component?: typeof React.Component;
 
-  /** Container for linear gradien. */
+  /** Container for linear gradient. */
   ViewComponent?: typeof React.Component;
 
   /** Props for linear gradient component. */
   linearGradientProps?: any;
 
-  /** Add enclosed childrens. */
+  /** Add enclosed children. */
   children?: any;
 };
 
@@ -49,7 +49,7 @@ export const ListItemBase: RneFunctionComponent<ListItemBaseProps> = (
     containerStyle,
     onPress,
     onLongPress,
-    Component = onPress || onLongPress ? TouchableHighlight : View,
+    Component = onPress || onLongPress ? Pressable : View,
     disabled,
     disabledStyle,
     bottomDivider,

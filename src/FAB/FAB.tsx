@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Animated } from 'react-native';
+import { StyleSheet, Animated, StyleProp, ViewStyle } from 'react-native';
 import Button, { ButtonProps } from '../Button';
 import { RneFunctionComponent } from '../helpers';
 
@@ -18,6 +18,9 @@ export type FABProps = ButtonProps & {
 
   /** Transform Extended Label text to uppercase. */
   upperCase?: boolean;
+
+  /** Style for FAB */
+  style?: StyleProp<ViewStyle>;
 };
 
 /** A floating action button (FAB) performs the primary, or most common, action on a screen.
@@ -92,6 +95,7 @@ export const FAB: RneFunctionComponent<FABProps> = ({
           disabled && styles.disabled,
           containerStyle,
         ])}
+        /** For Extended FAB */
         titleStyle={[
           styles.label,
           { color: theme?.colors?.white },

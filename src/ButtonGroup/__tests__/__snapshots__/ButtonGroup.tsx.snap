@@ -26,7 +26,14 @@ exports[`ButtonGroup Component Disabled should apply disabled styles 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={true}
       onPress={[Function]}
       style={
@@ -35,7 +42,6 @@ exports[`ButtonGroup Component Disabled should apply disabled styles 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -60,7 +66,7 @@ exports[`ButtonGroup Component Disabled should apply disabled styles 1`] = `
           Button 1
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="1"
@@ -72,7 +78,14 @@ exports[`ButtonGroup Component Disabled should apply disabled styles 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={true}
       onPress={[Function]}
       style={
@@ -81,7 +94,6 @@ exports[`ButtonGroup Component Disabled should apply disabled styles 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -106,7 +118,7 @@ exports[`ButtonGroup Component Disabled should apply disabled styles 1`] = `
           Button 2
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="2"
@@ -116,7 +128,14 @@ exports[`ButtonGroup Component Disabled should apply disabled styles 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={true}
       onPress={[Function]}
       style={
@@ -125,7 +144,6 @@ exports[`ButtonGroup Component Disabled should apply disabled styles 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -150,7 +168,7 @@ exports[`ButtonGroup Component Disabled should apply disabled styles 1`] = `
           Button 3
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -181,7 +199,14 @@ exports[`ButtonGroup Component Disabled should disable all items 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={true}
       onPress={[Function]}
       style={
@@ -190,7 +215,6 @@ exports[`ButtonGroup Component Disabled should disable all items 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -215,7 +239,7 @@ exports[`ButtonGroup Component Disabled should disable all items 1`] = `
           Button 1
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="1"
@@ -227,7 +251,14 @@ exports[`ButtonGroup Component Disabled should disable all items 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={true}
       onPress={[Function]}
       style={
@@ -236,7 +267,6 @@ exports[`ButtonGroup Component Disabled should disable all items 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -261,7 +291,7 @@ exports[`ButtonGroup Component Disabled should disable all items 1`] = `
           Button 2
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="2"
@@ -271,7 +301,14 @@ exports[`ButtonGroup Component Disabled should disable all items 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={true}
       onPress={[Function]}
       style={
@@ -280,7 +317,6 @@ exports[`ButtonGroup Component Disabled should disable all items 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -305,7 +341,7 @@ exports[`ButtonGroup Component Disabled should disable all items 1`] = `
           Button 3
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -336,7 +372,14 @@ exports[`ButtonGroup Component Disabled should disable only some items 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -345,7 +388,6 @@ exports[`ButtonGroup Component Disabled should disable only some items 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -369,7 +411,7 @@ exports[`ButtonGroup Component Disabled should disable only some items 1`] = `
           Button 1
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="1"
@@ -381,7 +423,14 @@ exports[`ButtonGroup Component Disabled should disable only some items 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={true}
       onPress={[Function]}
       style={
@@ -390,7 +439,6 @@ exports[`ButtonGroup Component Disabled should disable only some items 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -415,7 +463,7 @@ exports[`ButtonGroup Component Disabled should disable only some items 1`] = `
           Button 2
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="2"
@@ -425,7 +473,14 @@ exports[`ButtonGroup Component Disabled should disable only some items 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -434,7 +489,6 @@ exports[`ButtonGroup Component Disabled should disable only some items 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -458,7 +512,7 @@ exports[`ButtonGroup Component Disabled should disable only some items 1`] = `
           Button 3
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -493,7 +547,9 @@ exports[`ButtonGroup Component should apply values from theme 1`] = `
     <View
       accessible={true}
       focusable={true}
+      onBlur={[Function]}
       onClick={[Function]}
+      onFocus={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -503,7 +559,6 @@ exports[`ButtonGroup Component should apply values from theme 1`] = `
       style={
         Object {
           "flex": 1,
-          "opacity": 1,
         }
       }
       testID="buttonGroupItem"
@@ -546,7 +601,9 @@ exports[`ButtonGroup Component should apply values from theme 1`] = `
     <View
       accessible={true}
       focusable={true}
+      onBlur={[Function]}
       onClick={[Function]}
+      onFocus={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -556,7 +613,6 @@ exports[`ButtonGroup Component should apply values from theme 1`] = `
       style={
         Object {
           "flex": 1,
-          "opacity": 1,
         }
       }
       testID="buttonGroupItem"
@@ -596,7 +652,9 @@ exports[`ButtonGroup Component should apply values from theme 1`] = `
     <View
       accessible={true}
       focusable={true}
+      onBlur={[Function]}
       onClick={[Function]}
+      onFocus={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -606,7 +664,6 @@ exports[`ButtonGroup Component should apply values from theme 1`] = `
       style={
         Object {
           "flex": 1,
-          "opacity": 1,
         }
       }
       testID="buttonGroupItem"
@@ -665,7 +722,14 @@ exports[`ButtonGroup Component should have default onPress event 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -674,7 +738,6 @@ exports[`ButtonGroup Component should have default onPress event 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -698,7 +761,7 @@ exports[`ButtonGroup Component should have default onPress event 1`] = `
           Button 1
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="1"
@@ -710,7 +773,14 @@ exports[`ButtonGroup Component should have default onPress event 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -719,7 +789,6 @@ exports[`ButtonGroup Component should have default onPress event 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -743,7 +812,7 @@ exports[`ButtonGroup Component should have default onPress event 1`] = `
           Button 2
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="2"
@@ -753,7 +822,14 @@ exports[`ButtonGroup Component should have default onPress event 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -762,7 +838,6 @@ exports[`ButtonGroup Component should have default onPress event 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -786,7 +861,7 @@ exports[`ButtonGroup Component should have default onPress event 1`] = `
           Button 3
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -817,7 +892,14 @@ exports[`ButtonGroup Component should render selectedIndex 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -826,7 +908,6 @@ exports[`ButtonGroup Component should render selectedIndex 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -850,7 +931,7 @@ exports[`ButtonGroup Component should render selectedIndex 1`] = `
           Button 1
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="1"
@@ -862,7 +943,14 @@ exports[`ButtonGroup Component should render selectedIndex 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -871,7 +959,6 @@ exports[`ButtonGroup Component should render selectedIndex 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -896,7 +983,7 @@ exports[`ButtonGroup Component should render selectedIndex 1`] = `
           Button 2
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="2"
@@ -906,7 +993,14 @@ exports[`ButtonGroup Component should render selectedIndex 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -915,7 +1009,6 @@ exports[`ButtonGroup Component should render selectedIndex 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -939,7 +1032,7 @@ exports[`ButtonGroup Component should render selectedIndex 1`] = `
           Button 3
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -970,7 +1063,14 @@ exports[`ButtonGroup Component should render with button.element 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -979,7 +1079,6 @@ exports[`ButtonGroup Component should render with button.element 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -994,7 +1093,7 @@ exports[`ButtonGroup Component should render with button.element 1`] = `
           isSelected={false}
         />
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="1"
@@ -1004,7 +1103,14 @@ exports[`ButtonGroup Component should render with button.element 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -1013,7 +1119,6 @@ exports[`ButtonGroup Component should render with button.element 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -1028,7 +1133,7 @@ exports[`ButtonGroup Component should render with button.element 1`] = `
           isSelected={false}
         />
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -1059,7 +1164,14 @@ exports[`ButtonGroup Component should render without inner borders 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -1068,7 +1180,6 @@ exports[`ButtonGroup Component should render without inner borders 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -1092,7 +1203,7 @@ exports[`ButtonGroup Component should render without inner borders 1`] = `
           Button 1
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="1"
@@ -1104,7 +1215,14 @@ exports[`ButtonGroup Component should render without inner borders 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -1113,7 +1231,6 @@ exports[`ButtonGroup Component should render without inner borders 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -1137,7 +1254,7 @@ exports[`ButtonGroup Component should render without inner borders 1`] = `
           Button 2
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="2"
@@ -1147,7 +1264,14 @@ exports[`ButtonGroup Component should render without inner borders 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -1156,7 +1280,6 @@ exports[`ButtonGroup Component should render without inner borders 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -1180,7 +1303,7 @@ exports[`ButtonGroup Component should render without inner borders 1`] = `
           Button 3
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -1211,7 +1334,14 @@ exports[`ButtonGroup Component should render without issues 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -1220,7 +1350,6 @@ exports[`ButtonGroup Component should render without issues 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -1245,7 +1374,7 @@ exports[`ButtonGroup Component should render without issues 1`] = `
           Button 1
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="1"
@@ -1257,7 +1386,14 @@ exports[`ButtonGroup Component should render without issues 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -1266,7 +1402,6 @@ exports[`ButtonGroup Component should render without issues 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -1291,7 +1426,7 @@ exports[`ButtonGroup Component should render without issues 1`] = `
           Button 2
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="2"
@@ -1301,7 +1436,14 @@ exports[`ButtonGroup Component should render without issues 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -1310,7 +1452,6 @@ exports[`ButtonGroup Component should render without issues 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -1335,7 +1476,7 @@ exports[`ButtonGroup Component should render without issues 1`] = `
           Button 3
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -1367,7 +1508,14 @@ exports[`ButtonGroup Component vertical ButtonGroup 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -1376,7 +1524,6 @@ exports[`ButtonGroup Component vertical ButtonGroup 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -1401,7 +1548,7 @@ exports[`ButtonGroup Component vertical ButtonGroup 1`] = `
           Button 1
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="1"
@@ -1414,7 +1561,14 @@ exports[`ButtonGroup Component vertical ButtonGroup 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -1423,7 +1577,6 @@ exports[`ButtonGroup Component vertical ButtonGroup 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -1448,7 +1601,7 @@ exports[`ButtonGroup Component vertical ButtonGroup 1`] = `
           Button 2
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
   <View
     key="2"
@@ -1459,7 +1612,14 @@ exports[`ButtonGroup Component vertical ButtonGroup 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
+      android_ripple={
+        Object {
+          "borderless": false,
+          "color": "rgba(32, 137, 220, NaN)",
+          "radius": -5,
+        }
+      }
       disabled={false}
       onPress={[Function]}
       style={
@@ -1468,7 +1628,6 @@ exports[`ButtonGroup Component vertical ButtonGroup 1`] = `
         }
       }
       testID="buttonGroupItem"
-      underlayColor="#2089dc"
     >
       <View
         style={
@@ -1493,7 +1652,7 @@ exports[`ButtonGroup Component vertical ButtonGroup 1`] = `
           Button 3
         </Themed.Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;

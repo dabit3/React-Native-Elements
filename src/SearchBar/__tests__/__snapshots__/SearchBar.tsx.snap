@@ -54,6 +54,13 @@ exports[`SearchBar wrapper component should apply values from theme 1`] = `
           }
         >
           <View
+            android_ripple={
+              Object {
+                "borderless": false,
+                "color": "rgba(0, 0, 0, 0.3)",
+                "radius": -5,
+              }
+            }
             replaceTheme={[Function]}
             updateTheme={[Function]}
           >

@@ -4,13 +4,14 @@ import {
   Text,
   Image as RNImage,
   StyleSheet,
-  TouchableOpacity,
+  Pressable,
   StyleProp,
   ViewStyle,
   TextStyle,
   ImageSourcePropType,
   ImageURISource,
   ImageStyle,
+  PressableProps,
 } from 'react-native';
 import { renderNode, RneFunctionComponent } from '../helpers';
 import Icon, { IconObject } from '../Icon';
@@ -81,6 +82,9 @@ export type AvatarBaseProps = {
 
   /** Custom ImageComponent for Avatar. */
   ImageComponent?: React.ComponentClass;
+
+  /** Props for Pressable */
+  pressableProps?: PressableProps;
 };
 
 /** Avatars are found all over ui design from lists to profile screens.
@@ -88,7 +92,7 @@ export type AvatarBaseProps = {
 export const AvatarBase: RneFunctionComponent<AvatarBaseProps> = ({
   onPress,
   onLongPress,
-  Component = onPress || onLongPress ? TouchableOpacity : View,
+  Component = onPress || onLongPress ? Pressable : View,
   containerStyle,
   icon,
   iconStyle,
@@ -104,7 +108,8 @@ export const AvatarBase: RneFunctionComponent<AvatarBaseProps> = ({
   renderPlaceholderContent,
   ImageComponent = RNImage,
   children,
-  ...attributes
+  pressableProps,
+  ...props
 }) => {
   let width = avatarSizes.small;
   width = typeof size === 'number' ? size : avatarSizes[size];
@@ -159,7 +164,8 @@ export const AvatarBase: RneFunctionComponent<AvatarBaseProps> = ({
         rounded && { borderRadius: width / 2 },
         containerStyle,
       ])}
-      {...attributes}
+      {...props}
+      {...pressableProps}
     >
       <Image
         placeholderStyle={StyleSheet.flatten([

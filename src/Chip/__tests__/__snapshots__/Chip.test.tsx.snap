@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Chip Component should render outline 1`] = `
+exports[`Chip Component should render without issues 1`] = `
 <View
   style={
     Array [
@@ -8,76 +8,11 @@ exports[`Chip Component should render outline 1`] = `
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       false,
     ]
   }
->
-  <View
-    accessibilityRole="button"
-    accessibilityState={
-      Object {
-        "busy": false,
-        "disabled": false,
-      }
-    }
-    accessible={true}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "transparent",
-        "borderColor": "#2089dc",
-        "borderRadius": 30,
-        "borderWidth": 0.5,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "padding": 8,
-      }
-    }
-  >
-    <Text
-      style={
-        Object {
-          "color": "#2089dc",
-          "fontSize": 14,
-          "paddingHorizontal": 2,
-          "paddingVertical": 1,
-          "textAlign": "center",
-        }
-      }
-    >
-      outline
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`Chip Component should render solid 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-        "overflow": "hidden",
-      },
-      Object {
-        "borderRadius": 3,
-      },
-      undefined,
-      false,
-    ]
-  }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <View
     accessibilityRole="button"
@@ -108,20 +43,6 @@ exports[`Chip Component should render solid 1`] = `
         "padding": 8,
       }
     }
-  >
-    <Text
-      style={
-        Object {
-          "color": "white",
-          "fontSize": 14,
-          "paddingHorizontal": 2,
-          "paddingVertical": 1,
-          "textAlign": "center",
-        }
-      }
-    >
-      solid
-    </Text>
-  </View>
+  />
 </View>
 `;

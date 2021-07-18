@@ -1,14 +1,13 @@
 import React from 'react';
 import {
   Platform,
-  TouchableHighlight,
   View,
   StyleSheet,
-  TouchableNativeFeedback,
   ViewStyle,
   StyleProp,
   TextStyle,
-  TouchableHighlightProps,
+  Pressable,
+  PressableProps,
 } from 'react-native';
 import {
   IconButtonProps,
@@ -34,7 +33,7 @@ export type IconType =
   | 'font-awesome-5'
   | string;
 
-export type IconObject = TouchableHighlightProps & {
+export type IconObject = {
   /** Name of icon. */
   name?: string;
 
@@ -86,6 +85,9 @@ export type IconProps = IconButtonProps & {
 
   /** Uses the brands font (FontAwesome5 only). */
   brand?: boolean;
+
+  /** Props for Pressable */
+  pressableProps?: PressableProps;
 };
 
 /** Icons are visual indicators usually used to describe action or intent.
@@ -105,15 +107,11 @@ export const Icon: RneFunctionComponent<IconProps> = ({
   disabled = false,
   disabledStyle,
   onPress,
-  Component = onPress
-    ? Platform.select<typeof React.Component>({
-        android: TouchableNativeFeedback,
-        default: TouchableHighlight,
-      })
-    : View,
+  Component = onPress ? Pressable : View,
   solid = false,
   brand = false,
   theme,
+  pressableProps,
   ...attributes
 }) => {
   const color = colorProp || theme?.colors?.black;
@@ -134,15 +132,6 @@ export const Icon: RneFunctionComponent<IconProps> = ({
     width: size * 2 + 4,
   };
 
-  if (Platform.OS === 'android' && !attributes.background) {
-    if (Platform.Version >= 21) {
-      attributes.background = TouchableNativeFeedback.Ripple(
-        Color(color).alpha(0.2).rgb().string(),
-        true
-      );
-    }
-  }
-
   return (
     <View
       style={StyleSheet.flatten([
@@ -159,13 +148,20 @@ export const Icon: RneFunctionComponent<IconProps> = ({
       ])}
     >
       <Component
+        {...pressableProps}
         {...attributes}
         {...(onPress && {
           onPress,
           disabled,
-          underlayColor: reverse ? color : underlayColor,
-          activeOpacity: 0.3,
         })}
+        android_ripple={{
+          color: Color(reverse ? color : (underlayColor as string))
+            .alpha(0.3)
+            .rgb()
+            .string(),
+          borderless: false,
+          radius: -5,
+        }}
       >
         <View
           style={StyleSheet.flatten([

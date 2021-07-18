@@ -290,13 +290,11 @@ exports[`PricingCard component should apply values from theme 1`] = `
             "borderRadius": 3,
             "overflow": "hidden",
           },
-          Object {
-            "borderRadius": 3,
-          },
           undefined,
           false,
         ]
       }
+      testID="RNE_BUTTON_WRAPPER"
     >
       <View
         accessibilityRole="button"
@@ -345,6 +343,13 @@ exports[`PricingCard component should apply values from theme 1`] = `
             }
           >
             <View
+              android_ripple={
+                Object {
+                  "borderless": false,
+                  "color": "rgba(0, 0, 0, 0.3)",
+                  "radius": -5,
+                }
+              }
               replaceTheme={[Function]}
               updateTheme={[Function]}
             >

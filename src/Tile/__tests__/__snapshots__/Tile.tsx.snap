@@ -1,7 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tile component should apply custom image props 1`] = `
-<ForwardRef
+<Pressable
+  android_ripple={
+    Object {
+      "borderless": false,
+      "color": "rgba(0, 0, 0, NaN)",
+      "radius": -5,
+    }
+  }
   style={
     Object {
       "height": 600,
@@ -64,27 +71,30 @@ exports[`Tile component should apply custom image props 1`] = `
       testID="tileTitle"
     />
   </View>
-</ForwardRef>
+</Pressable>
 `;
 
 exports[`Tile component should apply styles from theme 1`] = `
 <View
   accessible={true}
-  focusable={false}
+  focusable={true}
+  onBlur={[Function]}
   onClick={[Function]}
+  onFocus={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  replaceTheme={[Function]}
   style={
     Object {
       "height": 600,
-      "opacity": 1,
       "width": 750,
     }
   }
+  updateTheme={[Function]}
 >
   <View
     accessibilityIgnoresInvertColors={true}
@@ -331,7 +341,14 @@ exports[`Tile component should render featured tile with icon 1`] = `
 `;
 
 exports[`Tile component should render tile with icon 1`] = `
-<ForwardRef
+<Pressable
+  android_ripple={
+    Object {
+      "borderless": false,
+      "color": "rgba(0, 0, 0, NaN)",
+      "radius": -5,
+    }
+  }
   style={
     Object {
       "height": 70,
@@ -404,12 +421,18 @@ exports[`Tile component should render tile with icon 1`] = `
       Lorem ipsum dolor sit amet, consectetur
     </Themed.Text>
   </View>
-</ForwardRef>
+</Pressable>
 `;
 
 exports[`Tile component should render with active opacity 1`] = `
-<ForwardRef
-  activeOpacity={0.9}
+<Pressable
+  android_ripple={
+    Object {
+      "borderless": false,
+      "color": "rgba(0, 0, 0, 0.9)",
+      "radius": -5,
+    }
+  }
   style={
     Object {
       "height": 600,
@@ -472,11 +495,18 @@ exports[`Tile component should render with active opacity 1`] = `
       testID="tileTitle"
     />
   </View>
-</ForwardRef>
+</Pressable>
 `;
 
 exports[`Tile component should render without issues 1`] = `
-<ForwardRef
+<Pressable
+  android_ripple={
+    Object {
+      "borderless": false,
+      "color": "rgba(0, 0, 0, NaN)",
+      "radius": -5,
+    }
+  }
   style={
     Object {
       "height": 600,
@@ -539,5 +569,5 @@ exports[`Tile component should render without issues 1`] = `
       testID="tileTitle"
     />
   </View>
-</ForwardRef>
+</Pressable>
 `;

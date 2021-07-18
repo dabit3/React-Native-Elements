@@ -14,9 +14,9 @@ describe('CheckBox Component', () => {
     expect(toJson(component)).toMatchSnapshot();
   });
 
-  it('should use TouchableOpacity as default component', () => {
+  it('should use Pressable as default component', () => {
     const component = shallow(<CheckBox theme={theme} />);
-    expect(component.find('ForwardRef').length).toBe(1);
+    expect(component.find('Pressable').length).toBe(1);
   });
 
   it('should allow to pass custom component', () => {

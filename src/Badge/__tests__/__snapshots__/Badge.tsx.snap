@@ -206,7 +206,7 @@ exports[`Badge Component should have a touchable when onPress is passed in 1`] =
 <View
   style={Object {}}
 >
-  <ForwardRef
+  <Pressable
     onPress={[MockFunction]}
     style={
       Object {
@@ -233,7 +233,7 @@ exports[`Badge Component should have a touchable when onPress is passed in 1`] =
     >
       10
     </Text>
-  </ForwardRef>
+  </Pressable>
 </View>
 `;
 

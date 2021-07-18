@@ -78,7 +78,9 @@ exports[`Overlay should apply values from theme 1`] = `
   <View
     accessible={true}
     focusable={true}
+    onBlur={[Function]}
     onClick={[Function]}
+    onFocus={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -139,26 +141,22 @@ exports[`Overlay should be able to render fullscreen 1`] = `
   transparent={true}
   visible={true}
 >
-  <TouchableWithoutFeedback
+  <Pressable
     onPress={[Function]}
-    testID="RNE__Overlay__backdrop"
-  >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "rgba(0, 0, 0, .4)",
-          "height": "100%",
-          "justifyContent": "center",
-          "left": 0,
-          "position": "absolute",
-          "top": 0,
-          "width": "100%",
-        }
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, .4)",
+        "height": "100%",
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
       }
-      testID="backdrop"
-    />
-  </TouchableWithoutFeedback>
+    }
+    testID="RNE__Overlay__backdrop"
+  />
   <View
     pointerEvents="box-none"
     style={
@@ -201,26 +199,22 @@ exports[`Overlay should render without issues 1`] = `
   transparent={true}
   visible={true}
 >
-  <TouchableWithoutFeedback
+  <Pressable
     onPress={[Function]}
-    testID="RNE__Overlay__backdrop"
-  >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "rgba(0, 0, 0, .4)",
-          "height": "100%",
-          "justifyContent": "center",
-          "left": 0,
-          "position": "absolute",
-          "top": 0,
-          "width": "100%",
-        }
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, .4)",
+        "height": "100%",
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
       }
-      testID="backdrop"
-    />
-  </TouchableWithoutFeedback>
+    }
+    testID="RNE__Overlay__backdrop"
+  />
   <View
     pointerEvents="box-none"
     style={

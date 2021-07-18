@@ -9,7 +9,15 @@ exports[`Icon component should apply container style 1`] = `
     }
   }
 >
-  <View>
+  <View
+    android_ripple={
+      Object {
+        "borderless": false,
+        "color": "rgba(0, 0, 0, 0.3)",
+        "radius": -5,
+      }
+    }
+  >
     <View
       style={
         Object {
@@ -44,11 +52,16 @@ exports[`Icon component should apply custom disabled styles 1`] = `
     }
   }
 >
-  <ForwardRef
-    activeOpacity={0.3}
+  <Pressable
+    android_ripple={
+      Object {
+        "borderless": false,
+        "color": "rgba(0, 0, 0, 0.3)",
+        "radius": -5,
+      }
+    }
     disabled={true}
     onPress={[MockFunction]}
-    underlayColor="transparent"
   >
     <View
       style={
@@ -72,7 +85,7 @@ exports[`Icon component should apply custom disabled styles 1`] = `
         testID="iconIcon"
       />
     </View>
-  </ForwardRef>
+  </Pressable>
 </View>
 `;
 
@@ -84,11 +97,16 @@ exports[`Icon component should apply default disabled styles 1`] = `
     }
   }
 >
-  <ForwardRef
-    activeOpacity={0.3}
+  <Pressable
+    android_ripple={
+      Object {
+        "borderless": false,
+        "color": "rgba(0, 0, 0, 0.3)",
+        "radius": -5,
+      }
+    }
     disabled={true}
     onPress={[MockFunction]}
-    underlayColor="transparent"
   >
     <View
       style={
@@ -112,7 +130,7 @@ exports[`Icon component should apply default disabled styles 1`] = `
         testID="iconIcon"
       />
     </View>
-  </ForwardRef>
+  </Pressable>
 </View>
 `;
 
@@ -135,7 +153,15 @@ exports[`Icon component should apply raised styles 1`] = `
     }
   }
 >
-  <View>
+  <View
+    android_ripple={
+      Object {
+        "borderless": false,
+        "color": "rgba(0, 0, 0, 0.3)",
+        "radius": -5,
+      }
+    }
+  >
     <View
       style={
         Object {
@@ -177,7 +203,15 @@ exports[`Icon component should apply reverse styles 1`] = `
     }
   }
 >
-  <View>
+  <View
+    android_ripple={
+      Object {
+        "borderless": false,
+        "color": "rgba(0, 0, 0, 0.3)",
+        "radius": -5,
+      }
+    }
+  >
     <View
       style={
         Object {
@@ -216,6 +250,13 @@ exports[`Icon component should apply values from theme 1`] = `
   }
 >
   <View
+    android_ripple={
+      Object {
+        "borderless": false,
+        "color": "rgba(0, 0, 0, 0.3)",
+        "radius": -5,
+      }
+    }
     replaceTheme={[Function]}
     updateTheme={[Function]}
   >
@@ -268,11 +309,16 @@ exports[`Icon component should render with icon type 1`] = `
     }
   }
 >
-  <ForwardRef
-    activeOpacity={0.3}
+  <Pressable
+    android_ripple={
+      Object {
+        "borderless": false,
+        "color": "rgba(255, 0, 0, 0.3)",
+        "radius": -5,
+      }
+    }
     disabled={false}
     onPress={[MockFunction]}
-    underlayColor="red"
   >
     <View
       style={
@@ -300,7 +346,7 @@ exports[`Icon component should render with icon type 1`] = `
         testID="iconIcon"
       />
     </View>
-  </ForwardRef>
+  </Pressable>
 </View>
 `;
 
@@ -312,7 +358,15 @@ exports[`Icon component should render without issues 1`] = `
     }
   }
 >
-  <View>
+  <View
+    android_ripple={
+      Object {
+        "borderless": false,
+        "color": "rgba(0, 0, 0, 0.3)",
+        "radius": -5,
+      }
+    }
+  >
     <View
       style={
         Object {
@@ -347,7 +401,15 @@ exports[`Icon component should set underlayColor to color when styles when under
     }
   }
 >
-  <View>
+  <View
+    android_ripple={
+      Object {
+        "borderless": false,
+        "color": "rgba(0, 0, 0, 0.3)",
+        "radius": -5,
+      }
+    }
+  >
     <View
       style={
         Object {
@@ -382,11 +444,16 @@ exports[`Icon component works on android with onPress 1`] = `
     }
   }
 >
-  <ForwardRef
-    activeOpacity={0.3}
+  <Pressable
+    android_ripple={
+      Object {
+        "borderless": false,
+        "color": "rgba(0, 0, 0, 0.3)",
+        "radius": -5,
+      }
+    }
     disabled={false}
     onPress={[MockFunction]}
-    underlayColor="transparent"
   >
     <View
       style={
@@ -410,6 +477,6 @@ exports[`Icon component works on android with onPress 1`] = `
         testID="iconIcon"
       />
     </View>
-  </ForwardRef>
+  </Pressable>
 </View>
 `;

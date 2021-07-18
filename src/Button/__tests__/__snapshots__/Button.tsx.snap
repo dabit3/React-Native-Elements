@@ -8,13 +8,11 @@ exports[`Button Component Button Types Clear should display clear button 1`] = `
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <ForwardRef
     accessibilityRole="button"
@@ -68,13 +66,11 @@ exports[`Button Component Button Types Clear should display clear button disable
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <ForwardRef
     accessibilityRole="button"
@@ -128,13 +124,11 @@ exports[`Button Component Button Types Clear should display raised clear button 
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <ForwardRef
     accessibilityRole="button"
@@ -188,13 +182,11 @@ exports[`Button Component Button Types Outline should display outline button 1`]
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <ForwardRef
     accessibilityRole="button"
@@ -248,13 +240,11 @@ exports[`Button Component Button Types Outline should display outline button dis
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <ForwardRef
     accessibilityRole="button"
@@ -308,9 +298,6 @@ exports[`Button Component Button Types Outline should display raised outline but
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       Object {
         "backgroundColor": "#fff",
@@ -325,6 +312,7 @@ exports[`Button Component Button Types Outline should display raised outline but
       },
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <ForwardRef
     accessibilityRole="button"
@@ -378,9 +366,6 @@ exports[`Button Component Button Types Solid should display raised solid button 
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       Object {
         "backgroundColor": "#fff",
@@ -395,6 +380,7 @@ exports[`Button Component Button Types Solid should display raised solid button 
       },
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <ForwardRef
     accessibilityRole="button"
@@ -448,13 +434,11 @@ exports[`Button Component Button Types Solid should display solid button 1`] = `
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <ForwardRef
     accessibilityRole="button"
@@ -508,13 +492,11 @@ exports[`Button Component Button Types Solid should display solid button disable
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <ForwardRef
     accessibilityRole="button"
@@ -568,13 +550,11 @@ exports[`Button Component should apply values from theme 1`] = `
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <View
     accessibilityRole="button"
@@ -637,13 +617,11 @@ exports[`Button Component should render without issues 1`] = `
         "borderRadius": 3,
         "overflow": "hidden",
       },
-      Object {
-        "borderRadius": 3,
-      },
       undefined,
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <ForwardRef
     accessibilityRole="button"

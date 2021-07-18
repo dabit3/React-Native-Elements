@@ -79,7 +79,9 @@ exports[`Dialog Component should apply values from theme 1`] = `
   <View
     accessible={true}
     focusable={true}
+    onBlur={[Function]}
     onClick={[Function]}
+    onFocus={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}

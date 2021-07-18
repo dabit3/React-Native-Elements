@@ -4,11 +4,12 @@ import {
   Image as ImageNative,
   StyleSheet,
   View,
-  TouchableOpacity,
+  Pressable,
   ImageProps as RNImageProps,
   ViewStyle,
   StyleProp,
   ImageStyle,
+  PressableProps,
 } from 'react-native';
 import { ThemeProps } from '../config';
 
@@ -16,6 +17,7 @@ export type ImageProps = RNImageProps & {
   Component?: typeof React.Component;
   onPress?(): void;
   onLongPress?(): void;
+  pressableProps?: PressableProps;
   ImageComponent?: React.ComponentType<any>;
   PlaceholderContent?: React.ReactElement<any>;
   containerStyle?: StyleProp<ViewStyle>;
@@ -64,7 +66,7 @@ export class Image extends React.Component<
     const {
       onPress,
       onLongPress,
-      Component = onPress || onLongPress ? TouchableOpacity : View,
+      Component = onPress || onLongPress ? Pressable : View,
       placeholderStyle,
       PlaceholderContent,
       containerStyle,
@@ -72,6 +74,7 @@ export class Image extends React.Component<
       style = {},
       ImageComponent = ImageNative,
       children,
+      pressableProps,
       ...attributes
     } = this.props;
 
@@ -80,6 +83,7 @@ export class Image extends React.Component<
 
     return (
       <Component
+        {...pressableProps}
         onPress={onPress}
         onLongPress={onLongPress}
         accessibilityIgnoresInvertColors={true}

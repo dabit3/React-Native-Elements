@@ -1,12 +1,13 @@
 import React from 'react';
 import {
-  TouchableHighlight,
+  Pressable,
   View,
   Platform,
   StyleSheet,
   StyleProp,
   ViewStyle,
   ColorValue,
+  PressableProps,
 } from 'react-native';
 import Image, { ImageProps } from '../Image';
 import Icon, { IconProps } from '../Icon';
@@ -19,6 +20,9 @@ export type AccessoryProps = Partial<IconProps> &
 
     /** Add custom styling to the accessory of avatar. */
     style?: StyleProp<ViewStyle>;
+
+    /** Props for Pressable */
+    pressableProps?: PressableProps;
   };
 
 /** This is used for adding an accessory to the Avatar.
@@ -30,10 +34,19 @@ export const Accessory: RneFunctionComponent<AccessoryProps> = ({
   onPress,
   onLongPress,
   source,
+  pressableProps,
   ...props
 }: AccessoryProps) => {
   return (
-    <TouchableHighlight
+    <Pressable
+      android_ripple={
+        (onPress || onLongPress) && {
+          color: underlayColor,
+          borderless: false,
+          radius: -5,
+        }
+      }
+      {...pressableProps}
       style={[
         styles.accessory,
         {
@@ -43,7 +56,6 @@ export const Accessory: RneFunctionComponent<AccessoryProps> = ({
         },
         style,
       ]}
-      underlayColor={underlayColor}
       onPress={onPress}
       onLongPress={onLongPress}
     >
@@ -68,7 +80,7 @@ export const Accessory: RneFunctionComponent<AccessoryProps> = ({
           />
         )}
       </View>
-    </TouchableHighlight>
+    </Pressable>
   );
 };
 

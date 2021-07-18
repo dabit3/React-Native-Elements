@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  TouchableOpacity,
+  Pressable,
   View,
   StyleSheet,
   Dimensions,
@@ -83,7 +83,7 @@ const FeaturedTile: RneFunctionComponent<TileProps> = (props) => {
   });
 
   return (
-    <TouchableOpacity
+    <Pressable
       {...attributes}
       style={StyleSheet.flatten([
         styles.container,
@@ -123,7 +123,7 @@ const FeaturedTile: RneFunctionComponent<TileProps> = (props) => {
           {renderText(caption, { style: captionStyle }, styles.text)}
         </View>
       </ImageComponent>
-    </TouchableOpacity>
+    </Pressable>
   );
 };
 

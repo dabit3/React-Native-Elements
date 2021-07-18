@@ -82,7 +82,7 @@ exports[`iOS SearchBar component Props cancel button Disabled cancelButtonProps 
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       disabled={true}
       onPress={[Function]}
@@ -115,7 +115,7 @@ exports[`iOS SearchBar component Props cancel button Disabled cancelButtonProps 
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -202,7 +202,7 @@ exports[`iOS SearchBar component Props cancel button Disabled cancelButtonProps 
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       disabled={true}
       onPress={[Function]}
@@ -237,7 +237,7 @@ exports[`iOS SearchBar component Props cancel button Disabled cancelButtonProps 
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -324,7 +324,7 @@ exports[`iOS SearchBar component Props cancel button Enabled cancelButtonProps 1
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       onPress={[Function]}
     >
@@ -360,7 +360,7 @@ exports[`iOS SearchBar component Props cancel button Enabled cancelButtonProps 1
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -447,7 +447,7 @@ exports[`iOS SearchBar component Props cancel button Enabled cancelButtonTitle 1
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       onPress={[Function]}
     >
@@ -477,7 +477,7 @@ exports[`iOS SearchBar component Props cancel button Enabled cancelButtonTitle 1
           Annuler
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -564,7 +564,7 @@ exports[`iOS SearchBar component Props clearIcon and without clearIcon 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       onPress={[Function]}
     >
@@ -594,7 +594,7 @@ exports[`iOS SearchBar component Props clearIcon and without clearIcon 1`] = `
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -681,7 +681,7 @@ exports[`iOS SearchBar component Props clearIcon and without custom clearIcon 1`
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       onPress={[Function]}
     >
@@ -711,7 +711,7 @@ exports[`iOS SearchBar component Props clearIcon and without custom clearIcon 1`
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -798,7 +798,7 @@ exports[`iOS SearchBar component Props clearIcon and without no clearIcon 1`] = 
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       onPress={[Function]}
     >
@@ -828,7 +828,7 @@ exports[`iOS SearchBar component Props clearIcon and without no clearIcon 1`] = 
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -909,7 +909,7 @@ exports[`iOS SearchBar component Props searchIcon and without custom searchIcon 
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       onPress={[Function]}
     >
@@ -939,7 +939,7 @@ exports[`iOS SearchBar component Props searchIcon and without custom searchIcon 
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -1019,7 +1019,7 @@ exports[`iOS SearchBar component Props searchIcon and without no searchIcon 1`] 
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       onPress={[Function]}
     >
@@ -1049,7 +1049,7 @@ exports[`iOS SearchBar component Props searchIcon and without no searchIcon 1`] 
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -1137,7 +1137,7 @@ exports[`iOS SearchBar component Props searchIcon and without searchIcon 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       onPress={[Function]}
     >
@@ -1167,7 +1167,7 @@ exports[`iOS SearchBar component Props searchIcon and without searchIcon 1`] = `
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -1268,7 +1268,7 @@ exports[`iOS SearchBar component Props showLoading, loadingProps 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       onPress={[Function]}
     >
@@ -1298,7 +1298,7 @@ exports[`iOS SearchBar component Props showLoading, loadingProps 1`] = `
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -1393,7 +1393,7 @@ exports[`iOS SearchBar component should render with a preset value 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       onPress={[Function]}
     >
@@ -1423,7 +1423,7 @@ exports[`iOS SearchBar component should render with a preset value 1`] = `
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;
@@ -1510,7 +1510,7 @@ exports[`iOS SearchBar component should render without issues 1`] = `
       }
     }
   >
-    <ForwardRef
+    <Pressable
       accessibilityRole="button"
       onPress={[Function]}
     >
@@ -1540,7 +1540,7 @@ exports[`iOS SearchBar component should render without issues 1`] = `
           Cancel
         </Text>
       </View>
-    </ForwardRef>
+    </Pressable>
   </View>
 </View>
 `;

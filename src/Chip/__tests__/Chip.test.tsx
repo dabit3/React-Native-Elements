@@ -5,21 +5,20 @@ import { fireEvent } from '@testing-library/react-native';
 
 describe('Chip Component', () => {
   it('should render without issues', () => {
-    const { getByA11yRole } = renderWithTheme(<Chip />);
+    const { getByA11yRole, toJSON } = renderWithTheme(<Chip />);
     const component = getByA11yRole('button');
     expect(component.props.style.borderRadius).toBe(30);
+    expect(toJSON()).toMatchSnapshot();
   });
 
+  // Test for solid and outline type
   it.each`
     type
     ${'solid'}
     ${'outline'}
   `('should render $type', ({ type }) => {
-    const { toJSON, queryByText } = renderWithTheme(
-      <Chip title={type} type={type} />
-    );
+    const { queryByText } = renderWithTheme(<Chip title={type} type={type} />);
     expect(queryByText(type)).not.toBeNull();
-    expect(toJSON()).toMatchSnapshot();
   });
 
   it('should pass the onPress function when specified', () => {

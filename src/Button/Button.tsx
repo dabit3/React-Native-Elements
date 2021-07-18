@@ -1,23 +1,23 @@
+import Color from 'color';
 import React, { useCallback, useEffect } from 'react';
 import {
-  View,
-  Text,
-  TouchableNativeFeedback,
-  TouchableOpacity,
   ActivityIndicator,
-  Platform,
-  StyleSheet,
-  TouchableOpacityProps,
-  TouchableNativeFeedbackProps,
-  StyleProp,
-  ViewStyle,
   ActivityIndicatorProps,
+  Platform,
+  StyleProp,
+  StyleSheet,
+  Text,
   TextStyle,
+  TouchableNativeFeedback,
+  TouchableNativeFeedbackProps,
+  TouchableOpacity,
+  TouchableOpacityProps,
+  View,
+  ViewStyle,
 } from 'react-native';
-import Color from 'color';
-import { renderNode, color, RneFunctionComponent } from '../helpers';
-import Icon, { IconNode } from '../Icon';
 import { Theme } from '../config/theme';
+import { color, renderNode, RneFunctionComponent } from '../helpers';
+import Icon, { IconNode } from '../Icon';
 import { TextProps } from '../Text';
 
 const defaultLoadingProps = (
@@ -27,6 +27,13 @@ const defaultLoadingProps = (
   color: type === 'solid' ? 'white' : theme?.colors?.primary,
   size: 'small',
 });
+
+const positionStyle = {
+  top: 'column',
+  bottom: 'column-reverse',
+  left: 'row',
+  right: 'row-reverse',
+};
 
 export type ButtonProps = TouchableOpacityProps &
   TouchableNativeFeedbackProps & {
@@ -117,7 +124,7 @@ export const Button: RneFunctionComponent<ButtonProps> = ({
   ViewComponent = View,
   theme,
   iconPosition = 'left',
-  ...attributes
+  ...props
 }) => {
   useEffect(() => {
     if (linearGradientProps && !ViewComponent) {
@@ -173,23 +180,15 @@ export const Button: RneFunctionComponent<ButtonProps> = ({
     disabled: !!disabled,
     busy: !!loading,
   };
-  const positionStyle = {
-    top: 'column',
-    bottom: 'column-reverse',
-    left: 'row',
-    right: 'row-reverse',
-  };
 
   return (
     <View
       style={[
         styles.container,
-        {
-          borderRadius: 3 || styles.container.borderRadius,
-        },
         containerStyle,
         raised && !disabled && type !== 'clear' && styles.raised,
       ]}
+      testID="RNE_BUTTON_WRAPPER"
     >
       <TouchableComponentInternal
         onPress={handleOnPress}
@@ -199,7 +198,7 @@ export const Button: RneFunctionComponent<ButtonProps> = ({
         accessibilityState={accessibilityState}
         disabled={disabled}
         background={background}
-        {...attributes}
+        {...props}
       >
         <ViewComponent
           {...linearGradientProps}
@@ -207,6 +206,8 @@ export const Button: RneFunctionComponent<ButtonProps> = ({
             styles.button,
             styles.buttonOrientation,
             {
+              // flex direction based on iconPosition
+              // if iconRight is true, default to right
               flexDirection:
                 positionStyle[iconRight ? 'right' : iconPosition] || 'row',
             },
@@ -230,6 +231,7 @@ export const Button: RneFunctionComponent<ButtonProps> = ({
             disabled && disabledStyle,
           ])}
         >
+          {/* Activity Indicator on loading */}
           {loading && (
             <ActivityIndicator
               style={StyleSheet.flatten([styles.loading, loadingStyle])}
@@ -238,6 +240,7 @@ export const Button: RneFunctionComponent<ButtonProps> = ({
               {...loadingProps}
             />
           )}
+          {/* Button Icon, hide Icon while loading */}
           {!loading &&
             icon &&
             renderNode(Icon, icon, {
@@ -246,7 +249,7 @@ export const Button: RneFunctionComponent<ButtonProps> = ({
                 iconContainerStyle,
               ]),
             })}
-
+          {/* Title for Button, hide while loading */}
           {!loading &&
             !!title &&
             renderNode(Text, title, {

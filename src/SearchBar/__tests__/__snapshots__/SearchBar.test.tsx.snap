@@ -1,0 +1,665 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar wrapper component should apply values from theme 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "paddingBottom": 8,
+      "paddingTop": 8,
+    }
+  }
+  testID="RNE__SearchBar-wrapper"
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 0,
+          "borderColor": "#86939e",
+          "flexDirection": "row",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginLeft": 8,
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            replaceTheme={[Function]}
+            updateTheme={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.54)",
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="iconIcon"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder="Enter search term"
+        placeholderTextColor="#86939e"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "color": "#242424",
+            "flex": 1,
+            "fontSize": 18,
+            "marginLeft": 24,
+            "marginRight": 8,
+            "minHeight": 40,
+          }
+        }
+        testID="RNE__SearchBar"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginRight": 8,
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#ff190c",
+          "fontSize": 12,
+          "height": 0,
+          "margin": 0,
+          "padding": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`SearchBar wrapper component should render an Android SearchBar 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "paddingBottom": 8,
+      "paddingTop": 8,
+    }
+  }
+  testID="RNE__SearchBar-wrapper"
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 0,
+          "borderColor": "#86939e",
+          "flexDirection": "row",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginLeft": 8,
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            replaceTheme={[Function]}
+            updateTheme={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.54)",
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="iconIcon"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#86939e"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "color": "black",
+            "flex": 1,
+            "fontSize": 18,
+            "marginLeft": 24,
+            "marginRight": 8,
+            "minHeight": 40,
+          }
+        }
+        testID="RNE__SearchBar"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginRight": 8,
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#ff190c",
+          "fontSize": 12,
+          "height": 0,
+          "margin": 0,
+          "padding": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`SearchBar wrapper component should render an iOS SearchBar 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "flexDirection": "row",
+      "overflow": "hidden",
+      "paddingBottom": 13,
+      "paddingTop": 13,
+    }
+  }
+  testID="RNE__SearchBar-wrapper"
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#dcdce1",
+          "borderBottomWidth": 0,
+          "borderColor": "#86939e",
+          "borderRadius": 9,
+          "flexDirection": "row",
+          "marginLeft": 8,
+          "marginRight": 8,
+          "minHeight": 36,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginLeft": 8,
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            replaceTheme={[Function]}
+            updateTheme={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#7d7d7d",
+                      "fontSize": 20,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="iconIcon"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#7d7d7d"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "color": "black",
+            "flex": 1,
+            "fontSize": 18,
+            "marginLeft": 6,
+            "minHeight": 40,
+            "overflow": "hidden",
+          }
+        }
+        testID="RNE__SearchBar"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginRight": 8,
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#ff190c",
+          "fontSize": 12,
+          "height": 0,
+          "margin": 0,
+          "padding": 0,
+        }
+      }
+    />
+  </View>
+  <View
+    onLayout={[Function]}
+    style={
+      Object {
+        "opacity": 0,
+        "position": "absolute",
+        "right": null,
+      }
+    }
+    testID="RNE__SearchBar-cancelButtonContainer"
+  >
+    <View
+      accessibilityRole="button"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+        testID="RNE__SearchBar-cancelButton"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#007aff",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            }
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SearchBar wrapper component should render without issues 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#393e42",
+      "borderBottomColor": "#000",
+      "borderBottomWidth": 1,
+      "borderTopColor": "#000",
+      "borderTopWidth": 1,
+      "padding": 8,
+    }
+  }
+  testID="RNE__SearchBar-wrapper"
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#303337",
+          "borderBottomWidth": 0,
+          "borderColor": "#86939e",
+          "borderRadius": 3,
+          "flexDirection": "row",
+          "minHeight": 30,
+          "overflow": "hidden",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginLeft": 8,
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            replaceTheme={[Function]}
+            updateTheme={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#86939e",
+                      "fontSize": 18,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="iconIcon"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#86939e"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "color": "#86939e",
+            "flex": 1,
+            "fontSize": 18,
+            "marginLeft": 10,
+            "minHeight": 40,
+          }
+        }
+        testID="RNE__SearchBar"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginRight": 8,
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#ff190c",
+          "fontSize": 12,
+          "height": 0,
+          "margin": 0,
+          "padding": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;

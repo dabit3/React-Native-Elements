@@ -12,7 +12,7 @@ import {
 import { IconNode } from '../Icon';
 import { ThemeProps } from '../config';
 
-const SEARCHBAR_COMPONENTS = {
+const SearchBar_Components = {
   ios: SearchBarIOS,
   android: SearchBarAndroid,
   default: SearchBarDefault,
@@ -39,46 +39,15 @@ export type SearchBarBaseProps = React.ComponentPropsWithRef<
 };
 
 export type SearchBarProps =
-  | SearchBarBaseProps
   | SearchBarDefaultProps
   | SearchBarAndroidProps
   | SearchBarIosProps;
 
-export class SearchBar extends React.Component<
+export const SearchBar = React.forwardRef<
+  TextInput,
   SearchBarProps & Partial<ThemeProps<SearchBarProps>>
-> {
-  searchbar!: SearchBarIOS;
-  static defaultProps = {
-    platform: 'default' as const,
-  };
+>(({ platform, ...props }, ref) => {
+  const Component = SearchBar_Components[platform] || SearchBarDefault;
 
-  focus = () => {
-    this.searchbar.focus();
-  };
-
-  blur = () => {
-    this.searchbar.blur();
-  };
-
-  clear = () => {
-    this.searchbar.clear();
-  };
-
-  cancel = () => {
-    this.searchbar.cancel && this.searchbar.cancel();
-  };
-
-  render() {
-    const Component: typeof React.Component =
-      SEARCHBAR_COMPONENTS[this.props.platform] || SearchBarDefault;
-
-    return (
-      <Component
-        ref={(ref: SearchBarIOS) => {
-          this.searchbar = ref;
-        }}
-        {...this.props}
-      />
-    );
-  }
-}
+  return <Component ref={ref} {...props} />;
+});

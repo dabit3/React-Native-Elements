@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Android SearchBar component should render without issues 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "paddingBottom": 8,
+      "paddingTop": 8,
+    }
+  }
+  testID="RNE__SearchBar-wrapper"
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 0,
+          "borderColor": "#86939e",
+          "flexDirection": "row",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginLeft": 8,
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            replaceTheme={[Function]}
+            updateTheme={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "black",
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="iconIcon"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#86939e"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "color": "black",
+            "flex": 1,
+            "fontSize": 18,
+            "marginLeft": 24,
+            "marginRight": 8,
+            "minHeight": 40,
+          }
+        }
+        testID="RNE__SearchBar"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginRight": 8,
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#ff190c",
+          "fontSize": 12,
+          "height": 0,
+          "margin": 0,
+          "padding": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;

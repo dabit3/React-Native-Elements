@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+  testID="RNE__Input__view-wrapper"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#86939e",
+        "flexDirection": "row",
+        "transform": Array [
+          Object {
+            "translateX": 0,
+          },
+        ],
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={true}
+      placeholderTextColor="#86939e"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "color": "#242424",
+          "flex": 1,
+          "fontSize": 18,
+          "minHeight": 40,
+        }
+      }
+      testID="RNE__Input__text-input"
+      underlineColorAndroid="transparent"
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#ff190c",
+        "fontSize": 12,
+        "margin": 5,
+      }
+    }
+  />
+</View>
+`;

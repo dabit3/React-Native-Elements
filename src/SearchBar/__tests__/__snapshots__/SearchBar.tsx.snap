@@ -17,6 +17,7 @@ exports[`SearchBar wrapper component should apply values from theme 1`] = `
         "width": "100%",
       }
     }
+    testID="RNE__Input__view-wrapper"
   >
     <View
       style={

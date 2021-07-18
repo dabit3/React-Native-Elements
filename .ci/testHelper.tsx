@@ -1,16 +1,17 @@
 import React from 'react';
-import { render } from '@testing-library/react-native';
-import { ThemeProvider, FullTheme } from '../src/config';
-
-const theme = {
-  colors: {
-    black: 'black',
-  },
-};
+import { render, RenderOptions } from '@testing-library/react-native';
+import { ThemeProvider, FullTheme, colors } from '../src/config';
+import deepmerge from 'deepmerge';
 
 export const renderWithTheme = (
   children: any,
-  themeProp: Partial<FullTheme> = theme
+  themeProp: Partial<FullTheme> = {},
+  options?: RenderOptions
 ) => {
-  return render(<ThemeProvider theme={themeProp}>{children}</ThemeProvider>);
+  return render(
+    <ThemeProvider theme={deepmerge({ colors }, themeProp)}>
+      {children}
+    </ThemeProvider>,
+    options
+  );
 };

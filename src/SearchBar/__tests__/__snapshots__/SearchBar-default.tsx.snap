@@ -13,7 +13,7 @@ exports[`Default SearchBar component Props clearIcon and without clearIcon 1`] =
     }
   }
 >
-  <ForwardRef(Themed.Input)
+  <Themed.Input
     containerStyle={
       Object {
         "paddingHorizontal": 0,
@@ -86,7 +86,7 @@ exports[`Default SearchBar component Props clearIcon and without custom clearIco
     }
   }
 >
-  <ForwardRef(Themed.Input)
+  <Themed.Input
     containerStyle={
       Object {
         "paddingHorizontal": 0,
@@ -159,7 +159,7 @@ exports[`Default SearchBar component Props clearIcon and without no clearIcon 1`
     }
   }
 >
-  <ForwardRef(Themed.Input)
+  <Themed.Input
     containerStyle={
       Object {
         "paddingHorizontal": 0,
@@ -232,7 +232,7 @@ exports[`Default SearchBar component Props searchIcon and without custom searchI
     }
   }
 >
-  <ForwardRef(Themed.Input)
+  <Themed.Input
     containerStyle={
       Object {
         "paddingHorizontal": 0,
@@ -298,7 +298,7 @@ exports[`Default SearchBar component Props searchIcon and without no searchIcon 
     }
   }
 >
-  <ForwardRef(Themed.Input)
+  <Themed.Input
     containerStyle={
       Object {
         "paddingHorizontal": 0,
@@ -364,7 +364,7 @@ exports[`Default SearchBar component Props searchIcon and without searchIcon 1`]
     }
   }
 >
-  <ForwardRef(Themed.Input)
+  <Themed.Input
     containerStyle={
       Object {
         "paddingHorizontal": 0,
@@ -438,7 +438,7 @@ exports[`Default SearchBar component Props showLoading, loadingProps 1`] = `
     }
   }
 >
-  <ForwardRef(Themed.Input)
+  <Themed.Input
     containerStyle={
       Object {
         "paddingHorizontal": 0,
@@ -524,7 +524,7 @@ exports[`Default SearchBar component should render with a preset value 1`] = `
     }
   }
 >
-  <ForwardRef(Themed.Input)
+  <Themed.Input
     containerStyle={
       Object {
         "paddingHorizontal": 0,
@@ -605,7 +605,7 @@ exports[`Default SearchBar component should render without issues 1`] = `
     }
   }
 >
-  <ForwardRef(Themed.Input)
+  <Themed.Input
     containerStyle={
       Object {
         "paddingHorizontal": 0,

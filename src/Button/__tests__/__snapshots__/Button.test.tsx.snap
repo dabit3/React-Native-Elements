@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button Component Button Types Clear should display clear button 1`] = `
+exports[`Button Component Button type clear should display clear button 1`] = `
 <View
   style={
     Array [
@@ -15,572 +15,13 @@ exports[`Button Component Button Types Clear should display clear button 1`] = `
       false,
     ]
   }
->
-  <ForwardRef
-    accessibilityRole="button"
-    accessibilityState={
-      Object {
-        "busy": false,
-        "disabled": false,
-      }
-    }
-    activeOpacity={0.3}
-    delayPressIn={0}
-    disabled={false}
-    onPress={[Function]}
-  >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "borderColor": "#2089dc",
-          "borderRadius": 3,
-          "borderWidth": 0,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "padding": 8,
-        }
-      }
-    >
-      <Text
-        style={
-          Object {
-            "color": "#2089dc",
-            "fontSize": 18,
-            "paddingVertical": 1,
-            "textAlign": "center",
-          }
-        }
-      >
-        Clear
-      </Text>
-    </View>
-  </ForwardRef>
-</View>
-`;
-
-exports[`Button Component Button Types Clear should display clear button disabled 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-        "overflow": "hidden",
-      },
-      Object {
-        "borderRadius": 3,
-      },
-      undefined,
-      false,
-    ]
-  }
->
-  <ForwardRef
-    accessibilityRole="button"
-    accessibilityState={
-      Object {
-        "busy": false,
-        "disabled": true,
-      }
-    }
-    activeOpacity={0.3}
-    delayPressIn={0}
-    disabled={true}
-    onPress={[Function]}
-  >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "borderColor": "#2089dc",
-          "borderRadius": 3,
-          "borderWidth": 0,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "padding": 8,
-        }
-      }
-    >
-      <Text
-        style={
-          Object {
-            "color": "hsl(208, 8%, 63%)",
-            "fontSize": 18,
-            "paddingVertical": 1,
-            "textAlign": "center",
-          }
-        }
-      >
-        Clear
-      </Text>
-    </View>
-  </ForwardRef>
-</View>
-`;
-
-exports[`Button Component Button Types Clear should display raised clear button 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-        "overflow": "hidden",
-      },
-      Object {
-        "borderRadius": 3,
-      },
-      undefined,
-      false,
-    ]
-  }
->
-  <ForwardRef
-    accessibilityRole="button"
-    accessibilityState={
-      Object {
-        "busy": false,
-        "disabled": false,
-      }
-    }
-    activeOpacity={0.3}
-    delayPressIn={0}
-    disabled={false}
-    onPress={[Function]}
-  >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "borderColor": "#2089dc",
-          "borderRadius": 3,
-          "borderWidth": 0,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "padding": 8,
-        }
-      }
-    >
-      <Text
-        style={
-          Object {
-            "color": "#2089dc",
-            "fontSize": 18,
-            "paddingVertical": 1,
-            "textAlign": "center",
-          }
-        }
-      >
-        Clear
-      </Text>
-    </View>
-  </ForwardRef>
-</View>
-`;
-
-exports[`Button Component Button Types Outline should display outline button 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-        "overflow": "hidden",
-      },
-      Object {
-        "borderRadius": 3,
-      },
-      undefined,
-      false,
-    ]
-  }
->
-  <ForwardRef
-    accessibilityRole="button"
-    accessibilityState={
-      Object {
-        "busy": false,
-        "disabled": false,
-      }
-    }
-    activeOpacity={0.3}
-    delayPressIn={0}
-    disabled={false}
-    onPress={[Function]}
-  >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "borderColor": "#2089dc",
-          "borderRadius": 3,
-          "borderWidth": 0.5,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "padding": 8,
-        }
-      }
-    >
-      <Text
-        style={
-          Object {
-            "color": "#2089dc",
-            "fontSize": 18,
-            "paddingVertical": 1,
-            "textAlign": "center",
-          }
-        }
-      >
-        Outline
-      </Text>
-    </View>
-  </ForwardRef>
-</View>
-`;
-
-exports[`Button Component Button Types Outline should display outline button disabled 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-        "overflow": "hidden",
-      },
-      Object {
-        "borderRadius": 3,
-      },
-      undefined,
-      false,
-    ]
-  }
->
-  <ForwardRef
-    accessibilityRole="button"
-    accessibilityState={
-      Object {
-        "busy": false,
-        "disabled": true,
-      }
-    }
-    activeOpacity={0.3}
-    delayPressIn={0}
-    disabled={true}
-    onPress={[Function]}
-  >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "borderColor": "hsl(208, 8%, 63%)",
-          "borderRadius": 3,
-          "borderWidth": 0.5,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "padding": 8,
-        }
-      }
-    >
-      <Text
-        style={
-          Object {
-            "color": "hsl(208, 8%, 63%)",
-            "fontSize": 18,
-            "paddingVertical": 1,
-            "textAlign": "center",
-          }
-        }
-      >
-        Outline
-      </Text>
-    </View>
-  </ForwardRef>
-</View>
-`;
-
-exports[`Button Component Button Types Outline should display raised outline button 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-        "overflow": "hidden",
-      },
-      Object {
-        "borderRadius": 3,
-      },
-      undefined,
-      Object {
-        "backgroundColor": "#fff",
-        "overflow": "visible",
-        "shadowColor": "rgba(0,0,0, .4)",
-        "shadowOffset": Object {
-          "height": 1,
-          "width": 1,
-        },
-        "shadowOpacity": 1,
-        "shadowRadius": 1,
-      },
-    ]
-  }
->
-  <ForwardRef
-    accessibilityRole="button"
-    accessibilityState={
-      Object {
-        "busy": false,
-        "disabled": false,
-      }
-    }
-    activeOpacity={0.3}
-    delayPressIn={0}
-    disabled={false}
-    onPress={[Function]}
-  >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "borderColor": "#2089dc",
-          "borderRadius": 3,
-          "borderWidth": 0.5,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "padding": 8,
-        }
-      }
-    >
-      <Text
-        style={
-          Object {
-            "color": "#2089dc",
-            "fontSize": 18,
-            "paddingVertical": 1,
-            "textAlign": "center",
-          }
-        }
-      >
-        Outline
-      </Text>
-    </View>
-  </ForwardRef>
-</View>
-`;
-
-exports[`Button Component Button Types Solid should display raised solid button 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-        "overflow": "hidden",
-      },
-      Object {
-        "borderRadius": 3,
-      },
-      undefined,
-      Object {
-        "backgroundColor": "#fff",
-        "overflow": "visible",
-        "shadowColor": "rgba(0,0,0, .4)",
-        "shadowOffset": Object {
-          "height": 1,
-          "width": 1,
-        },
-        "shadowOpacity": 1,
-        "shadowRadius": 1,
-      },
-    ]
-  }
->
-  <ForwardRef
-    accessibilityRole="button"
-    accessibilityState={
-      Object {
-        "busy": false,
-        "disabled": false,
-      }
-    }
-    activeOpacity={0.3}
-    delayPressIn={0}
-    disabled={false}
-    onPress={[Function]}
-  >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "#2089dc",
-          "borderColor": "#2089dc",
-          "borderRadius": 3,
-          "borderWidth": 0,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "padding": 8,
-        }
-      }
-    >
-      <Text
-        style={
-          Object {
-            "color": "white",
-            "fontSize": 18,
-            "paddingVertical": 1,
-            "textAlign": "center",
-          }
-        }
-      >
-        Solid
-      </Text>
-    </View>
-  </ForwardRef>
-</View>
-`;
-
-exports[`Button Component Button Types Solid should display solid button 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-        "overflow": "hidden",
-      },
-      Object {
-        "borderRadius": 3,
-      },
-      undefined,
-      false,
-    ]
-  }
->
-  <ForwardRef
-    accessibilityRole="button"
-    accessibilityState={
-      Object {
-        "busy": false,
-        "disabled": false,
-      }
-    }
-    activeOpacity={0.3}
-    delayPressIn={0}
-    disabled={false}
-    onPress={[Function]}
-  >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "#2089dc",
-          "borderColor": "#2089dc",
-          "borderRadius": 3,
-          "borderWidth": 0,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "padding": 8,
-        }
-      }
-    >
-      <Text
-        style={
-          Object {
-            "color": "white",
-            "fontSize": 18,
-            "paddingVertical": 1,
-            "textAlign": "center",
-          }
-        }
-      >
-        Solid
-      </Text>
-    </View>
-  </ForwardRef>
-</View>
-`;
-
-exports[`Button Component Button Types Solid should display solid button disabled 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-        "overflow": "hidden",
-      },
-      Object {
-        "borderRadius": 3,
-      },
-      undefined,
-      false,
-    ]
-  }
->
-  <ForwardRef
-    accessibilityRole="button"
-    accessibilityState={
-      Object {
-        "busy": false,
-        "disabled": true,
-      }
-    }
-    activeOpacity={0.3}
-    delayPressIn={0}
-    disabled={true}
-    onPress={[Function]}
-  >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "hsl(208, 8%, 90%)",
-          "borderColor": "#2089dc",
-          "borderRadius": 3,
-          "borderWidth": 0,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "padding": 8,
-        }
-      }
-    >
-      <Text
-        style={
-          Object {
-            "color": "hsl(208, 8%, 63%)",
-            "fontSize": 18,
-            "paddingVertical": 1,
-            "textAlign": "center",
-          }
-        }
-      >
-        Solid
-      </Text>
-    </View>
-  </ForwardRef>
-</View>
-`;
-
-exports[`Button Component should apply values from theme 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-        "overflow": "hidden",
-      },
-      Object {
-        "borderRadius": 3,
-      },
-      undefined,
-      false,
-    ]
-  }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <View
     accessibilityRole="button"
     accessibilityState={
       Object {
-        "busy": true,
+        "busy": false,
         "disabled": false,
       }
     }
@@ -613,23 +54,24 @@ exports[`Button Component should apply values from theme 1`] = `
         }
       }
     >
-      <ActivityIndicator
-        animating={true}
-        color="white"
-        hidesWhenStopped={true}
-        size="small"
+      <Text
         style={
           Object {
-            "marginVertical": 2,
+            "color": "white",
+            "fontSize": 18,
+            "paddingVertical": 1,
+            "textAlign": "center",
           }
         }
-      />
+      >
+        clear
+      </Text>
     </View>
   </View>
 </View>
 `;
 
-exports[`Button Component should render without issues 1`] = `
+exports[`Button Component Button type clear should display disabled clear button 1`] = `
 <View
   style={
     Array [
@@ -644,8 +86,90 @@ exports[`Button Component should render without issues 1`] = `
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
-  <ForwardRef
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "hsl(208, 8%, 90%)",
+          "borderColor": "#2089dc",
+          "borderRadius": 3,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "hsl(208, 8%, 63%)",
+            "fontSize": 18,
+            "paddingVertical": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        clear
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Component Button type clear should display raised clear button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      Object {
+        "backgroundColor": "#fff",
+        "overflow": "visible",
+        "shadowColor": "rgba(0,0,0, .4)",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 1,
+      },
+    ]
+  }
+  testID="RNE_BUTTON_WRAPPER"
+>
+  <View
     accessibilityRole="button"
     accessibilityState={
       Object {
@@ -653,10 +177,20 @@ exports[`Button Component should render without issues 1`] = `
         "disabled": false,
       }
     }
-    activeOpacity={0.3}
-    delayPressIn={0}
-    disabled={false}
-    onPress={[Function]}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
   >
     <View
       style={
@@ -671,7 +205,466 @@ exports[`Button Component should render without issues 1`] = `
           "padding": 8,
         }
       }
-    />
-  </ForwardRef>
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 18,
+            "paddingVertical": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        clear
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Component Button type outline should display disabled outline button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+  testID="RNE_BUTTON_WRAPPER"
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "hsl(208, 8%, 90%)",
+          "borderColor": "#2089dc",
+          "borderRadius": 3,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "hsl(208, 8%, 63%)",
+            "fontSize": 18,
+            "paddingVertical": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        outline
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Component Button type outline should display outline button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+  testID="RNE_BUTTON_WRAPPER"
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#2089dc",
+          "borderColor": "#2089dc",
+          "borderRadius": 3,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 18,
+            "paddingVertical": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        outline
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Component Button type outline should display raised outline button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      Object {
+        "backgroundColor": "#fff",
+        "overflow": "visible",
+        "shadowColor": "rgba(0,0,0, .4)",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 1,
+      },
+    ]
+  }
+  testID="RNE_BUTTON_WRAPPER"
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#2089dc",
+          "borderColor": "#2089dc",
+          "borderRadius": 3,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 18,
+            "paddingVertical": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        outline
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Component Button type solid should display disabled solid button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+  testID="RNE_BUTTON_WRAPPER"
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "hsl(208, 8%, 90%)",
+          "borderColor": "#2089dc",
+          "borderRadius": 3,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "hsl(208, 8%, 63%)",
+            "fontSize": 18,
+            "paddingVertical": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        solid
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Component Button type solid should display raised solid button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      Object {
+        "backgroundColor": "#fff",
+        "overflow": "visible",
+        "shadowColor": "rgba(0,0,0, .4)",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 1,
+      },
+    ]
+  }
+  testID="RNE_BUTTON_WRAPPER"
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#2089dc",
+          "borderColor": "#2089dc",
+          "borderRadius": 3,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 18,
+            "paddingVertical": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        solid
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Component Button type solid should display solid button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+  testID="RNE_BUTTON_WRAPPER"
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#2089dc",
+          "borderColor": "#2089dc",
+          "borderRadius": 3,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 18,
+            "paddingVertical": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        solid
+      </Text>
+    </View>
+  </View>
 </View>
 `;

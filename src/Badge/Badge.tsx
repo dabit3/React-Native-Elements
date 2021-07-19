@@ -48,16 +48,20 @@ export const Badge: RneFunctionComponent<BadgeProps> = ({
   value,
   theme,
   status = 'primary',
-  ...attributes
+  ...props
 }) => {
   const element = renderNode(Text, value, {
     style: StyleSheet.flatten([styles.text, textStyle && textStyle]),
     ...textProps,
   });
   return (
-    <View style={StyleSheet.flatten([containerStyle && containerStyle])}>
+    <View
+      testID="RNE__Badge__Container"
+      style={StyleSheet.flatten([containerStyle && containerStyle])}
+    >
       <Component
-        {...attributes}
+        {...props}
+        testID="RNE__Badge"
         style={StyleSheet.flatten([
           {
             alignSelf: 'center',

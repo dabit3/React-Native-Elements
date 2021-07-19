@@ -15,6 +15,7 @@ exports[`Chip Component should render outline 1`] = `
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <View
     accessibilityRole="button"
@@ -78,6 +79,7 @@ exports[`Chip Component should render solid 1`] = `
       false,
     ]
   }
+  testID="RNE_BUTTON_WRAPPER"
 >
   <View
     accessibilityRole="button"

@@ -297,6 +297,7 @@ exports[`PricingCard component should apply values from theme 1`] = `
           false,
         ]
       }
+      testID="RNE_BUTTON_WRAPPER"
     >
       <View
         accessibilityRole="button"

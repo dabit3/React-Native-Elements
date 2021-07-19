@@ -16,7 +16,7 @@ import { renderNode, RneFunctionComponent } from '../helpers';
 import Icon, { IconObject } from '../Icon';
 import Image, { ImageProps } from '../Image';
 
-const avatarSizes = {
+export const avatarSizes = {
   small: 34,
   medium: 50,
   large: 75,
@@ -27,7 +27,7 @@ type AvatarIcon = IconObject & {
   iconStyle?: StyleProp<TextStyle>;
 };
 
-export type AvatarBaseProps = {
+export type AvatarProps = {
   /** Component for enclosing element (eg: TouchableHighlight, View, etc). */
   Component?: typeof React.Component;
 
@@ -85,7 +85,7 @@ export type AvatarBaseProps = {
 
 /** Avatars are found all over ui design from lists to profile screens.
  * They are commonly used to represent a user and can contain photos, icons, or even text. */
-export const AvatarBase: RneFunctionComponent<AvatarBaseProps> = ({
+export const Avatar: RneFunctionComponent<AvatarProps> = ({
   onPress,
   onLongPress,
   Component = onPress || onLongPress ? TouchableOpacity : View,
@@ -106,8 +106,8 @@ export const AvatarBase: RneFunctionComponent<AvatarBaseProps> = ({
   children,
   ...attributes
 }) => {
-  let width = avatarSizes.small;
-  width = typeof size === 'number' ? size : avatarSizes[size];
+  const width =
+    typeof size === 'number' ? size : avatarSizes[size] || avatarSizes.small;
 
   const height = width;
   const titleSize = width / 2;
@@ -131,9 +131,9 @@ export const AvatarBase: RneFunctionComponent<AvatarBaseProps> = ({
       <Icon
         style={StyleSheet.flatten([iconStyle && iconStyle])}
         color={icon.color || 'white'}
-        name={icon.name || 'user'}
+        name={icon.name || 'account'}
         size={icon.size || iconSize}
-        type={icon.type && icon.type}
+        type={icon.type || 'material-community'}
       />
     ));
 
@@ -162,6 +162,7 @@ export const AvatarBase: RneFunctionComponent<AvatarBaseProps> = ({
       {...attributes}
     >
       <Image
+        testID="RNE__Avatar__Image"
         placeholderStyle={StyleSheet.flatten([
           placeholderStyle,
           hidePlaceholder && styles.hiddenPlaceholderStyle,
@@ -205,4 +206,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AvatarBase.displayName = 'Avatar';
+Avatar.displayName = 'Avatar';

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge Component should render without issue 1`] = `
+<View
+  testID="wrapper"
+>
+  <View
+    style={Object {}}
+    testID="RNE__Badge__Container"
+  >
+    <View
+      replaceTheme={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2089dc",
+          "borderColor": "#fff",
+          "borderRadius": 9,
+          "borderWidth": 0.5,
+          "height": 18,
+          "justifyContent": "center",
+          "minWidth": 18,
+        }
+      }
+      testID="RNE__Badge"
+      updateTheme={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 12,
+            "paddingHorizontal": 4,
+          }
+        }
+      >
+        10
+      </Text>
+    </View>
+  </View>
+</View>
+`;

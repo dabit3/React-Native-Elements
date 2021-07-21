@@ -22,7 +22,7 @@ export type CheckBoxIconProps = {
   /** Default checked icon ([Font Awesome Icon](http://fontawesome.io/icons/)) */
   uncheckedIcon?: string | React.ReactElement<{}>;
 
-  /** Type of icon set. [Supported sets here](icon.md#available-icon-sets). */
+  /** Type of icon set. [Supported sets here](icon#available-icon-sets). */
   iconType?: IconType;
 
   /** Default checked color. */

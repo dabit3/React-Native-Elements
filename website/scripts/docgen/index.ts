@@ -22,7 +22,14 @@ Object.keys(componentDocs).map((componentDisplayName) => {
   // Ensuring that the directory is present, and if not, create it.
   fs.ensureDirSync(path.join(__dirname, `../../.docgen/${componentName}`));
   fs.outputFile(
-    path.join(__dirname, `../../.docgen/${componentName}/${fileName}.md`),
+    path.join(__dirname, `../../docs/main/${fileName}.md`),
     markdownData
   );
+  // fs.writeJSONSync(
+  //   path.join(__dirname, `../../.docgen/${componentName}/${fileName}.json`),
+  //   componentDocs[componentDisplayName],
+  //   {
+  //     spaces: 2,
+  //   }
+  // );
 });

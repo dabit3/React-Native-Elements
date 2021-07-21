@@ -32,13 +32,16 @@ json2md.converters.usage = function (input, json2md) {
   } else return '';
 };
 
+function generatePropsLinks(props) {
+  const propLinks = Object.keys(props).map((key) => {
+    return json2md({ link: { title: key, source: `#${key}` } });
+  });
+  return propLinks;
+}
+
 json2md.converters.props = function (input, json2md) {
   let data = json2md({ h2: 'Props' });
-  data += Object.keys(input)
-    .map((key) => {
-      return json2md({ link: { title: key, source: `#${key}` } });
-    })
-    .join('');
+  data += json2md({ ul: generatePropsLinks(input) });
   return data;
 };
 
@@ -55,8 +58,8 @@ json2md.converters.propsData = function (input, json2md) {
             headers: ['Type', 'Default'],
             rows: [
               {
-                Type: prop.type ? prop.type.name : '',
-                Default: prop.defaultValue ? prop.defaultValue.value : '',
+                Type: prop.type ? prop.type.name : 'None',
+                Default: prop.defaultValue ? prop.defaultValue.value : 'None',
               },
             ],
           },

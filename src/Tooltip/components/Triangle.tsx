@@ -1,18 +1,25 @@
 import React from 'react';
-import { View, StyleSheet, StyleProp, ViewStyle } from 'react-native';
+import {
+  View,
+  StyleSheet,
+  StyleProp,
+  ViewStyle,
+  ColorValue,
+} from 'react-native';
 
 type TriangleProps = {
+  pointerColor?: ColorValue;
   style?: StyleProp<ViewStyle>;
   isDown?: boolean;
 };
 
-const Triangle: React.FunctionComponent<TriangleProps> = ({
-  style,
-  isDown,
-}) => (
+const Triangle: React.FC<TriangleProps> = ({ style, pointerColor, isDown }) => (
   <View
     style={StyleSheet.flatten([
       styles.triangle,
+      {
+        borderBottomColor: pointerColor,
+      },
       style,
       isDown ? styles.down : {},
     ])}
@@ -37,4 +44,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Triangle;
+export default React.memo(Triangle);

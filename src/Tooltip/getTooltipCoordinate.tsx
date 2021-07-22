@@ -19,7 +19,7 @@ export const getElementVisibleWidth = (
 };
 
 /*
-type Coord = {
+type Coords = {
   x: number,
   y: number,
 };
@@ -30,7 +30,7 @@ type Coord = {
   to place the tooltip. To find the best position we look for the side with the
   most space. In order to find the side with the most space we divide the the
   surroundings in four quadrants and check for the one with biggest area.
-  Once we know the quandrant with the biggest area it place the tooltip in that
+  Once we know the quadrant with the biggest area it place the tooltip in that
   direction.
 
   To find the areas we first get 5 coordinate points. The center and the other 4 extreme points
@@ -76,17 +76,17 @@ const getTooltipCoordinate = (
     getArea(vThree, vFour),
   ].map((each, index) => ({ area: each, id: index }));
   const sortedArea = areas.sort((a, b) => b.area - a.area);
-  // deslocated points
+  // dislocated points
   const dX = 0.001;
   const dY = height / 2;
-  // Deslocate the coordinates in the direction of the quadrant.
+  // Dislocate the coordinates in the direction of the quadrant.
   const directionCorrection = [
     [-1, -1],
     [1, -1],
     [1, 1],
     [-1, 1],
   ];
-  const deslocateReferencePoint = [
+  const dislocateReferencePoint = [
     [-tooltipWidth, -tooltipHeight],
     [0, -tooltipHeight],
     [0, 0],
@@ -100,13 +100,13 @@ const getTooltipCoordinate = (
     withPointer ? center[0] - 18 * directionCorrection[qIndex][0] : center[0];
   const newX =
     getWithPointerOffsetX() +
-    (dX * directionCorrection[qIndex][0] + deslocateReferencePoint[qIndex][0]);
+    (dX * directionCorrection[qIndex][0] + dislocateReferencePoint[qIndex][0]);
   return {
     x: constraintX(newX, qIndex, center[0], ScreenWidth, tooltipWidth),
     y:
       center[1] +
       (dY * directionCorrection[qIndex][1] +
-        deslocateReferencePoint[qIndex][1]) +
+        dislocateReferencePoint[qIndex][1]) +
       getWithPointerOffsetY(),
   };
 };

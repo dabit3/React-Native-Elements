@@ -48,7 +48,8 @@ exports[`Tooltip component should apply values from theme 1`] = `
           "opacity": 1,
         }
       }
-    >
+    />
+    <View>
       <View>
         <View
           style={
@@ -419,7 +420,7 @@ exports[`Tooltip component should display tooltip 1`] = `
     hardwareAccelerated={false}
     onShow={[Function]}
     transparent={true}
-    visible={true}
+    visible={false}
   >
     <View
       accessible={true}
@@ -438,7 +439,8 @@ exports[`Tooltip component should display tooltip 1`] = `
           "opacity": 1,
         }
       }
-    >
+    />
+    <View>
       <View>
         <View
           style={
@@ -541,7 +543,7 @@ exports[`Tooltip component should display tooltip onLongPress 1`] = `
     hardwareAccelerated={false}
     onShow={[Function]}
     transparent={true}
-    visible={true}
+    visible={false}
   >
     <View
       accessible={true}
@@ -560,7 +562,8 @@ exports[`Tooltip component should display tooltip onLongPress 1`] = `
           "opacity": 1,
         }
       }
-    >
+    />
+    <View>
       <View>
         <View
           style={
@@ -804,7 +807,8 @@ exports[`Tooltip component should render without issues 1`] = `
           "opacity": 1,
         }
       }
-    >
+    />
+    <View>
       <View>
         <View
           style={
@@ -890,7 +894,7 @@ exports[`Tooltip component should return children for Falsy toggleOnPress 1`] = 
     hardwareAccelerated={false}
     onShow={[Function]}
     transparent={true}
-    visible={true}
+    visible={false}
   >
     <View
       accessible={true}
@@ -909,7 +913,8 @@ exports[`Tooltip component should return children for Falsy toggleOnPress 1`] = 
           "opacity": 1,
         }
       }
-    >
+    />
+    <View>
       <View>
         <View
           style={
